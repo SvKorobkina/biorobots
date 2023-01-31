@@ -399,12 +399,13 @@
 .Robot {
     /* 3 */
     position: absolute;
-    width: 236px;
+    width: 220px;
     height: 320px;
     left: 910px;
     top: 1942px;
     margin-right: 350px;
-    background: url(./assets/33.png) no-repeat;
+    background: url(./assets/robots.png) no-repeat;
+    background-size: 1600px;
 }
 
 .Robot img {
