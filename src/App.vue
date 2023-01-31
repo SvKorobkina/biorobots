@@ -7,8 +7,25 @@
 
         <div class="header">
             <button class="button_upper">
-                <div class="text" @click="scrollMeTo(porto)">Произвести биоробота</div>
+                <div class="text" @click="onRobotCreate()">Произвести биоробота</div>
             </button>
+            <div class="money_info">
+            <div v-if="robotCreatedSuccessfulyPopup">
+                <div class="v-popup">
+                    <div class="coin_x">
+                        <button class="close" @click="robotCreatedSuccessfulyPopup = false">x</button>
+                    </div>
+
+                    <div class="for_text">
+                        <div class="v-popup_header">
+                            <h1>Биоробот произведен</h1>
+                        </div>
+                        <div class="youCant">Вы произвели биоробота
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         </div>
 
 
@@ -183,11 +200,12 @@
             {{ robotCreateErrorText }}
         </div>
 
-        <button class="button_create" :disabled="coinsCount < 10" @click="onRobotCreate()">
+        <button class="button_create" :disabled="coinsCount < 10" @click="coinsCount -= 10">
             <span class="button_create_text">
                 Произвести за 10 монет
             </span>
         </button>
+        <!--
         <div class="money_info">
             <div v-if="robotCreatedSuccessfulyPopup">
                 <div class="v-popup">
@@ -205,7 +223,7 @@
                 </div>
             </div>
         </div>
-
+        -->
         <div class="constructor_conteiner">
 
             <div class="constructor_items">
@@ -329,57 +347,58 @@ const onMining = () => {
 }
 
 const porto = ref(null)
+/*
 const scrollMeTo = (elem) => {
     window.scrollTo(0, elem.offsetTop)
 }
-
+*/
 const robotType = ref(null)
 const robotGender = ref(null)
 const robotBgPos = computed(() => {
-    if (!robotType.value || !robotGender.value) return '0 0'
+    if (!robotType.value || !robotGender.value) return '-210px -670px'
     if (store.hands < 4 || store.microchips < 2 || store.souls == 0) {
         if (robotType.value === 'frontend') {
             if (robotGender.value === 'Male') {
-                return '0 0'
+                return '-210px -670px'
             }
             else {
-                return '0 0'
+                return '-760px -650px'
             }
         }
         else {
             if (robotGender.value === 'Male') {
-                return '0 0'
+                return '0 -650px'
             }
             else {
-                return '0 0'
+                return '-490px -670px'
             }
         }
     }
     else if (!robotCreatedSuccessfuly.value) {
         if (robotType.value === 'frontend') {
             if (robotGender.value === 'Male') {
-                return '0 0'
+                return '-230px -330px'
             }
             else {
-                return '0 0'
+                return '-760px -330px'
             }
         }
         else {
             if (robotGender.value === 'Male') {
-                return '0 0'
+                return '0 -330px'
             }
             else {
-                return '0 0'
+                return '-490px -330px'
             }
         }
     }
     else {
         if (robotType.value === 'frontend') {
             if (robotGender.value === 'Male') {
-                return '0 0'
+                return '-230px 0'
             }
             else {
-                return '0 0'
+                return '-760px 0'
             }
         }
         else {
@@ -387,7 +406,7 @@ const robotBgPos = computed(() => {
                 return '0 0'
             }
             else {
-                return '0 0'
+                return '-490px 0'
             }
         }
     }
