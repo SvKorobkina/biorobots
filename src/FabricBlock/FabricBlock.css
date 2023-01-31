@@ -1,0 +1,90 @@
+/* Фабрика по производству биороботов */
+.fabric {
+    position: absolute;
+    width: 470px;
+    height: 216px;
+    left: 342px;
+    top: 216px;
+}
+
+/* класса «монитор-кресло» */
+.class {
+    position: absolute;
+    width: 470px;
+    height: 32px;
+    /*left: 342px;
+ top: 456px;*/
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height, or 133% */
+    color: #A3B8CC;
+}
+
+.H1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 72px;
+    /* or 129% */
+
+    color: #ffffff;
+}
+.imadge {
+    /* image */
+    position: absolute;
+    width: 366px;
+    height: 320px;
+    left: 862px;
+    top: 192px;
+}
+
+.Ellipse4 {
+    /*position: absolute;*/
+    width: 275px;
+    height: 275px;
+    background: #1E2936;
+    border-radius: 50%;
+    left: 31px;
+    top: 4px;
+}
+
+.DesignerMale {
+    position: absolute;
+    background: url(../assets/robots.png);
+    width: 140px;
+    height: 220px;
+    left: 165px;
+    top: 82px;
+    background-position: 0 0;
+    transform: scale(-1, 1);
+    background-size: 1280px;
+
+}
+
+.Male1 {
+    width: 138.35px;
+    height: 195.89px;
+    left: 196px;
+    top: 102px;
+}
+
+.Male2 {
+    width: 220px;
+    height: 300px;
+}
+
+.DesignerMale2 {
+    position: absolute;
+    left: -80px;
+    top: 5px;
+    background: url(../assets/robots.png);
+    background-position: -290px -10px;
+    background-repeat: no-repeat;
+    background-size: 1950px;
+}
+
+ 

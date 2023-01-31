@@ -1,0 +1,119 @@
+/*PACKMAN*/
+.pacman {
+  width: 48px;
+  height: 48px;
+  left: 212px;
+  top: 48px;
+  border-radius: 50%;
+  background: #e47525;
+  position: relative;
+  margin-top: 20px;
+}
+
+.pacman__mouth {
+  background: #25323f;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  clip-path: polygon(100% 74%, 44% 48%, 100% 21%);
+  animation-name: eat;
+  animation-duration: 0.7s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes eat {
+  0% {
+    clip-path: polygon(100% 74%, 44% 48%, 100% 21%);
+  }
+
+  25% {
+    clip-path: polygon(100% 60%, 44% 48%, 100% 40%);
+  }
+
+  50% {
+    clip-path: polygon(100% 50%, 44% 48%, 100% 50%);
+  }
+
+  75% {
+    clip-path: polygon(100% 59%, 44% 48%, 100% 35%);
+  }
+
+  100% {
+    clip-path: polygon(100% 74%, 44% 48%, 100% 21%);
+  }
+}
+
+.pacman__food1 {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: #e47525;
+  border-radius: 50%;
+  top: 40%;
+  left: 60px;
+  animation-name: food1;
+  animation-duration: 0.7s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes food1 {
+  0% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateX(-50px);
+    opacity: 0;
+  }
+}
+
+.pacman__food2 {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: #e47525;
+  border-radius: 50%;
+  top: 40%;
+  left: 80px;
+  animation-name: food2;
+  animation-duration: 0.7s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes food2 {
+  0% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateX(-50px);
+    opacity: 0;
+  }
+}
+
+.pacman__food3 {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: #e47525;
+  border-radius: 50%;
+  top: 40%;
+  left: 100px;
+  animation-name: food3;
+  animation-duration: 0.7s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes food3 {
+  0% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateX(-50px);
+    opacity: 0;
+  }
+}

@@ -1,0 +1,1775 @@
+.my1920 {
+    /*opacity: 0.7;*/
+    background: radial-gradient(82.33% 70.44% at 50% 0%, #26394D 0%, #212529 100%);
+    position: relative;
+    width: 1440px;
+    height: 2467px;
+}
+
+.header {
+    display: flex;
+    justify-content: right;
+}
+
+.button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 12px 60px;
+    gap: 10px;
+
+    position: absolute;
+    width: 236px;
+    height: 48px;
+    left: 602px;
+    top: 1290px;
+
+    background: linear-gradient(180deg, #FF7F22 0%, #FF5722 100%);
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.16);
+    border-radius: 60px;
+    border: none;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.button:hover {
+    background: #FF5722;
+}
+
+.button:active {
+    background-color: #FF7F22 !important;
+}
+
+.button:disabled {
+    filter: grayscale(100%) !important;
+}
+
+.text1 {
+    width: 98px;
+    height: 24px;
+    justify-content: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    text-align: center;
+
+    color: #FFFFFF;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.button_upper {
+    display: flex;
+    padding: 12px 60px;
+
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    width: 236px;
+    height: 48px;
+
+    top: 48px;
+    right: 230px;
+
+    background: none;
+    border-color: #FF5722;
+    border-radius: 60px;
+
+}
+
+.button_upper:hover {
+    background-color: #FF5722;
+    border: none;
+}
+
+.button_upper:active {
+    background-color: #FF7F22 !important;
+    border: none;
+}
+
+.button_upper:disabled {
+    border-color: #4C5865;
+    color: #4C5865 !important;
+    border: none;
+}
+
+
+.text {
+    /* Text */
+
+    width: 200px;
+    height: 24px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+
+
+
+
+.H2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+    /* identical to box height, or 125% */
+
+    color: #FFFFFF;
+}
+
+
+/* Rectangle 14 */
+.Rectangle14 {
+    box-sizing: border-box;
+    position: absolute;
+    visibility: hidden;
+    width: 366px;
+    height: 464px;
+    left: 732px;
+    top: 2320px;
+
+    background: #333940;
+    border-radius: 4px;
+}
+
+.FrontFamale {
+    position: absolute;
+    /*visibility: hidden;*/
+    width: 236px;
+    height: 320px;
+    left: 862px;
+    top: 2288px;
+}
+
+/* Robot-02 */
+.Robot-02 {
+    position: absolute;
+    width: 180px;
+    height: 250px;
+    left: 208px;
+    top: 35px;
+
+    background: url(./assets/FrontMale.png);
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.koshelek {
+    /*Кошелек криптовалют*/
+    position: absolute;
+    width: 756px;
+    height: 40px;
+    left: 342px;
+    top: 612px;
+    /* 1920/H2 */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+    /* identical to box height, or 125% */
+    color: #FFFFFF;
+}
+
+.getMaining {
+    position: absolute;
+    left: 340px;
+    top: 824px;
+}
+
+/* Нацыганить */
+.maining {
+    width: 103px;
+    height: 24px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    color: #FF7F22;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.maining:hover {
+    color: #FF5722;
+}
+
+.maining:active {
+    text-decoration: none !important;
+    color: #FF7F22;
+}
+
+.maining:disabled {
+    text-decoration: none !important;
+    color: #4C5865;
+}
+
+/* 1 */
+
+.box1 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 4px;
+    top: 4px;
+
+    left: 480px;
+    top: 824px;
+
+}
+
+.checkbox-other {
+    display: block;
+    margin: 0 0 10px 0;
+    line-height: 22px;
+    cursor: pointer;
+    user-select: none;
+    position: relative;
+}
+
+.checkbox-other input[type=checkbox] {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+    display: block;
+    width: 0;
+    height: 0;
+}
+
+.checkbox-other span {
+    display: inline-block;
+    position: relative;
+    padding: 0 0 0 35px;
+    line-height: 22px;
+}
+
+.checkbox-other span:before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border: 1px solid #A3B8CC;
+    box-shadow: inset 0 0 3px #8a8a8a;
+}
+
+/* Checked */
+.checkbox-other input[type=checkbox]+span:after {
+    content: "";
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.checkbox-other input[type=checkbox]:checked+span:after {
+    content: "✓";
+    color: #FF7F22;
+    font-size: 30px;
+    font-weight: 900;
+    position: absolute;
+    left: 2px;
+    top: -2px;
+    opacity: 1;
+}
+
+/* Focus */
+.focused span:before {
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, .25);
+}
+
+/* Hover */
+.checkbox-other span:hover:after {
+    color: #4C5865;
+    filter: brightness(110%);
+}
+
+/* Active */
+.checkbox-other span:active:before,
+.checkbox-other span:active:after {
+    filter: brightness(80%);
+}
+
+/* Disabled */
+.checkbox-other input[type=checkbox]:disabled+span {
+    color: #333940;
+    cursor: default;
+}
+
+.checkbox-other input[type=checkbox]:disabled+span:before,
+.checkbox-other input[type=checkbox]:disabled+span:after {
+    filter: grayscale(100%);
+    opacity: 0.6;
+}
+
+.money5 {
+    /* Цыганить по 5 монет */
+    position: absolute;
+    width: 216px;
+    height: 24px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+
+    color: #FFFFFF;
+}
+
+.Ellipse5 {
+    box-sizing: border-box;
+    position: absolute;
+    left: 31.36%;
+    right: 31.36%;
+    top: 15.62%;
+    bottom: 15.62%;
+
+    border: 3px solid RGB#FF7F22;
+}
+
+.copy_one {
+    position: absolute;
+
+    height: 20px;
+    left: 350px;
+    top: 712px;
+}
+
+.money {
+
+    margin-left: -8px;
+    width: 16px;
+    height: 20px;
+    left: 342px;
+    top: 712px;
+}
+
+
+/* Без названия 1 */
+
+
+.Robot-designer {
+
+
+    width: 183px;
+    height: 251px;
+    left: 12px;
+    top: 60px;
+
+    background: url(./assets/FrontMale.png);
+}
+
+.Robot {
+    /* 3 */
+    position: absolute;
+    width: 236px;
+    height: 320px;
+    left: 910px;
+    top: 1942px;
+    margin-right: 350px;
+    background: url(./assets/33.png) no-repeat;
+}
+
+.Robot img {
+    height: 300px;
+}
+
+.howmanycrypto {
+    /* 45 biorobo монет */
+    position: absolute;
+    width: 310px;
+    height: 24px;
+    left: 342px;
+    top: 756px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    /* identical to box height, or 100% */
+    background-color: none;
+
+    /*color: #A3B8CC;*/
+}
+
+.rinok {
+    /* Рынок комплектующих */
+
+
+    position: absolute;
+    width: 754px;
+    height: 40px;
+    left: 342px;
+    top: 952px;
+
+    /* 1920/H2 */
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+    /* identical to box height, or 125% */
+
+
+    color: #FFFFFF;
+}
+
+.sklad {
+    /* Склад */
+
+
+    position: absolute;
+    width: 754px;
+    height: 40px;
+    left: 342px;
+    top: 1438px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+    /* identical to box height, or 125% */
+
+
+    color: #FFFFFF;
+}
+
+.production {
+    /* Производство */
+
+
+    position: absolute;
+    width: 754px;
+    height: 72px;
+    left: 342px;
+    top: 1810px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 72px;
+    /* identical to box height, or 225% */
+
+
+    color: #FFFFFF;
+}
+
+.biohand_bright {
+    position: absolute;
+    width: 90px;
+    height: 60px;
+    left: 75px;
+    top: 157px;
+    clip-path: coords(0 20%, 19% 0, 0 100%, 100% 100%, 90% 0);
+    border: 5px solid transparent;
+    /* Пока курсор не наведен, рамка присутствует, но её не видно, т.к. она прозрачная. */
+}
+
+.biohand_bright:hover {
+    border: 5px solid rgb(80, 156, 206);
+    /* Рамка становится заметной, при наведении курсора. */
+}
+
+.biohand {
+
+    /* Subtract */
+    position: absolute;
+    height: 220px; 
+    top: 90px;
+    left: 0px;
+}
+
+.bio_text {
+    /* Биорука */
+    position: absolute;
+    width: 236px;
+    height: 32px;
+    left: 342px;
+    top: 1205px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    /* identical to box height, or 160% */
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.cost7 {
+    /* Стоимость: 7 монет */
+    position: absolute;
+    width: 236px;
+    height: 24px;
+    left: 342px;
+    top: 1242px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    text-align: center;
+
+    color: #A3B8CC;
+
+}
+
+.icon4 {
+    /* icon 4 */
+    position: absolute;
+    width: 236px;
+    height: 128px;
+    left: 602px;
+    top: 1052px;
+}
+
+.vector {
+    /* Vector/detale */
+    position: absolute;
+    left: -11px;
+    top: -31px;
+
+}
+
+.vector_bright {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    left: 76px;
+    top: 50px;
+    clip-path: polygon(0 20%, 10% 10%, 20% 0, 85% 0, 85% 20%, 100% 15%, 100% 80%, 85% 85%, 85% 100%, 20% 100%, 0 76%)
+}
+.vector_bright:hover {
+    border: 5px solid rgb(80, 156, 206);
+    /* Рамка становится заметной, при наведении курсора. */
+}
+
+.micro {
+    /* Микрочип */
+
+
+    position: absolute;
+    width: 236px;
+    height: 32px;
+    left: 602px;
+    top: 1205px;
+
+    /* 1920/info text */
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    /* identical to box height, or 160% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.cost5 {
+    /* Стоимость: 5 монет */
+    position: absolute;
+    width: 236px;
+    height: 24px;
+    left: 602px;
+    top: 1242px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    text-align: center;
+    color: #A3B8CC;
+}
+
+.icon3 {
+    /* icon 3 */
+    position: absolute;
+    width: 236px;
+    height: 128px;
+    left: 862px;
+    top: 1052px;
+}
+
+.soul {
+    /* Душа */
+    position: absolute;
+    width: 236px;
+    height: 32px;
+    left: 862px;
+    top: 1205px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    /* identical to box height, or 160% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.cost25 {
+    /* Стоимость: 25 монет */
+    position: absolute;
+    width: 236px;
+    height: 24px;
+    left: 862px;
+    top: 1242px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    text-align: center;
+
+    color: #A3B8CC;
+}
+
+.vector2 {
+    /* Ellipse 5 */
+    position: absolute;
+    width: 270px;
+    height: 270px;
+    left: -94px;
+    top: -86px;
+    background-position: 10px 10px;
+
+    background-size: 1280px;
+
+
+    /*
+    top: -52px;
+    left: -21px;
+    box-sizing: border-box;*/
+
+
+    border-radius: 100%;
+}
+
+.circle {
+    display: flex;
+
+    align-items: center;
+    position: absolute;
+    margin-top: 2px;
+    left: 70px;
+    top: 35px;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    border: 10px solid transparent;
+
+    /* Пока курсор не наведен, рамка присутствует, но её не видно, т.к. она прозрачная. */
+}
+
+.circle:hover {
+    border: 10px solid rgb(80, 156, 206);
+    /* Рамка становится заметной, при наведении курсора. */
+}
+
+
+.vector2_bright {
+    position: absolute;
+    left: 31.36%;
+    right: 31.36%;
+    top: 15.62%;
+    bottom: 14.62%;
+    border-radius: 56px;
+    box-shadow: 0px 8px 90px #FF7F22;
+    opacity: 0.2;
+}
+
+.button_fill {
+    /* Button / Fill */
+    /* Auto layout */
+
+    display: flex;
+    padding: 12px 60px;
+    gap: 10px;
+
+    position: absolute;
+    width: 236px;
+    height: 48px;
+    left: 342px;
+    top: 1290px;
+    border: none;
+    background: linear-gradient(180deg, #FF7F22 0%, #FF5722 100%);
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.16);
+    border-radius: 60px;
+}
+
+.button_fill_text {
+    /* Text */
+    width: 98px;
+    height: 24px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    justify-content: center;
+    align-items: center;
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.button_fill:hover {
+    background: #FF5722;
+}
+
+.button_fill:active {
+    background-color: #FF7F22 !important;
+}
+
+.button_fill:disabled {
+    filter: grayscale(100%) !important;
+}
+
+
+.button_soul {
+    /* Button / Fill */
+
+
+    /* Auto layout */
+    /*
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ align-items: flex-start;
+ padding: 12px 60px;
+ gap: 10px;
+ 
+ position: absolute;
+ width: 236px;
+ height: 48px;
+ left: 862px;
+ top: 1290px;
+ border:none;
+ background: #4C5865;
+ border-radius: 60px;
+ */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 12px 60px;
+    gap: 10px;
+
+    position: absolute;
+    width: 236px;
+    height: 48px;
+    left: 862px;
+    top: 1290px;
+
+    background: linear-gradient(180deg, #FF7F22 0%, #FF5722 100%);
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.16);
+    border-radius: 60px;
+    border: none;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.button_soul:hover {
+    background: #FF5722;
+}
+
+.button_soul:active {
+    background-color: #FF7F22 !important;
+}
+
+.button_soul:disabled {
+    filter: grayscale(100%) !important;
+}
+
+
+/*PACKMAN*/
+.pacman {
+    width: 48px;
+    height: 48px;
+    left: 212px;
+    top: 48px;
+    border-radius: 50%;
+    background: #e47525;
+    position: relative;
+    margin-top: 20px;
+}
+
+.pacman__mouth {
+    background: #25323f;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    clip-path: polygon(100% 74%, 44% 48%, 100% 21%);
+    animation-name: eat;
+    animation-duration: 0.7s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes eat {
+    0% {
+        clip-path: polygon(100% 74%, 44% 48%, 100% 21%);
+    }
+
+    25% {
+        clip-path: polygon(100% 60%, 44% 48%, 100% 40%);
+    }
+
+    50% {
+        clip-path: polygon(100% 50%, 44% 48%, 100% 50%);
+    }
+
+    75% {
+        clip-path: polygon(100% 59%, 44% 48%, 100% 35%);
+    }
+
+    100% {
+        clip-path: polygon(100% 74%, 44% 48%, 100% 21%);
+    }
+}
+
+.pacman__food1 {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: #e47525;
+    border-radius: 50%;
+    top: 40%;
+    left: 60px;
+    animation-name: food1;
+    animation-duration: 0.7s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes food1 {
+    0% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateX(-50px);
+        opacity: 0;
+    }
+}
+
+.pacman__food2 {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: #e47525;
+    border-radius: 50%;
+    top: 40%;
+    left: 80px;
+    animation-name: food2;
+    animation-duration: 0.7s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes food2 {
+    0% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateX(-50px);
+        opacity: 0;
+    }
+}
+
+.pacman__food3 {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: #e47525;
+    border-radius: 50%;
+    top: 40%;
+    left: 100px;
+    animation-name: food3;
+    animation-duration: 0.7s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes food3 {
+    0% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateX(-50px);
+        opacity: 0;
+    }
+}
+
+/*СКЛАД*/
+.storehouse_hand {
+    /* Биорука */
+    position: absolute;
+    width: 236px;
+    height: 32px;
+    left: 342px;
+    top: 1538px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    /* identical to box height, or 160% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.storehouse_cost5 {
+    /* Стоимость: 5 монет */
+
+
+    position: absolute;
+    width: 236px;
+    height: 24px;
+    left: 342px;
+    top: 1575px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    text-align: center;
+
+    color: #A3B8CC;
+}
+
+.storehouse_2_coins {
+    /* 2 шт */
+
+
+    position: absolute;
+    width: 236px;
+    height: 24px;
+    left: 342px;
+    top: 1614px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height, or 120% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+
+/*Микрочип*/
+.storehouse_micro {
+
+    position: absolute;
+    width: 236px;
+    height: 32px;
+    left: 602px;
+    top: 1538px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    /* identical to box height, or 160% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+
+.storehouse_cost_micro3 {
+    /* Стоимость: 3 монет */
+    position: absolute;
+    width: 236px;
+    height: 24px;
+    left: 602px;
+    top: 1575px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    text-align: center;
+
+    color: #A3B8CC;
+}
+
+.storehouse_micro_coins {
+    /* 3 шт */
+    position: absolute;
+    width: 236px;
+    height: 24px;
+    left: 602px;
+    top: 1614px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height, or 120% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+/*Душа*/
+.storehouse_soul {
+    position: absolute;
+    width: 236px;
+    height: 32px;
+    left: 862px;
+    top: 1538px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    /* identical to box height, or 160% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.storehouse_cost_soul {
+    /* Стоимость: 15 монет */
+
+
+    position: absolute;
+    width: 236px;
+    height: 24px;
+    left: 862px;
+    top: 1575px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    text-align: center;
+
+    color: #A3B8CC;
+}
+
+.storehouse_soul_coins {
+    /* 0 шт */
+    position: absolute;
+    width: 236px;
+    height: 24px;
+    left: 862px;
+    top: 1614px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height, or 120% */
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.button_store {
+    /* Button / Stroke */
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    padding: 12px 60px;
+    gap: 10px;
+
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    width: 236px;
+    height: 48px;
+    left: 602px;
+    top: 1662px;
+
+    background: none;
+
+    border-radius: 60px;
+    border: 2px solid #22B3E3;
+    /*
+background: #7CDAF9;
+box-shadow: 0px 10px 40px #1E5466;
+border-radius: 60px;
+border:none;*/
+}
+
+.button_store:hover {
+    background: #7CDAF9;
+    box-shadow: 0px 10px 40px #1E5466;
+    font-style: normal;
+    color: #212529 !important;
+}
+
+.button_store:active {
+    background: none;
+    border: 2px solid #22B3E3;
+    box-shadow: none;
+}
+
+.button_store:disabled {
+    background-color: #4C5865 !important;
+    color: #4C5865;
+}
+
+
+.button_store_text {
+    width: 236px;
+    height: 48px;
+    margin-top: 22px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    text-align: center;
+
+    color: #7CDAF9;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.button_store_text:hover {
+    color: #212529 !important;
+}
+
+.button_store_text:active {
+    color: #7CDAF9 !important;
+}
+
+.button_store_text:disabled {
+    color: #4C5865;
+}
+
+.button_store_bio {
+    left: 342px;
+    top: 1662px;
+
+    display: flex;
+    flex-direction: row;
+    padding: 12px 60px;
+    gap: 10px;
+
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    width: 236px;
+    height: 48px;
+
+
+    background: none;
+
+    border-radius: 60px;
+    border: 2px solid #22B3E3;
+    /*
+background: #7CDAF9;
+box-shadow: 0px 10px 40px #1E5466;
+border-radius: 60px;
+border:none;*/
+}
+
+.button_store_bio:hover {
+    background: #7CDAF9;
+    box-shadow: 0px 10px 40px #1E5466;
+    font-style: normal;
+    color: #212529 !important;
+}
+
+.button_store_bio:active {
+    background: none;
+    border: 2px solid #22B3E3;
+    box-shadow: none;
+}
+
+.button_store_bio:disabled {
+    background-color: #4C5865 !important;
+    color: #4C5865;
+}
+
+
+.button_store_bio_text {
+    width: 236px;
+    height: 48px;
+    margin-top: 22px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    text-align: center;
+
+    color: #7CDAF9;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.button_store_bio_text:hover {
+    color: #212529 !important;
+}
+
+.button_store_bio_text:active {
+    color: #7CDAF9 !important;
+}
+
+.button_store_bio_text:disabled {
+    color: #4C5865;
+}
+
+.button_store_soul {
+    left: 862px;
+    top: 1662px;
+    display: flex;
+    flex-direction: row;
+    padding: 12px 60px;
+    gap: 10px;
+
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    width: 236px;
+    height: 48px;
+
+
+    background: none;
+
+    border-radius: 60px;
+    border: 2px solid #22B3E3;
+    /*
+background: #7CDAF9;
+box-shadow: 0px 10px 40px #1E5466;
+border-radius: 60px;
+border:none;*/
+}
+
+.button_store_soul:hover {
+    background: #7CDAF9;
+    box-shadow: 0px 10px 40px #1E5466;
+    font-style: normal;
+    color: #212529 !important;
+}
+
+.button_store_soul:active {
+    background: none;
+    border: 2px solid #22B3E3;
+    box-shadow: none;
+}
+
+.button_store_soul:disabled {
+    background-color: #4C5865 !important;
+    color: #4C5865;
+}
+
+
+.button_store_soul_text {
+    width: 236px;
+    height: 48px;
+    margin-top: 22px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    text-align: center;
+
+    color: #7CDAF9;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.button_store_soul_text:hover {
+    color: #212529 !important;
+}
+
+.button_store_soul_text:active {
+    color: #7CDAF9 !important;
+}
+
+.button_store_soul_text:disabled {
+    color: #4C5865;
+}
+
+.type_bio {
+    /* Тип биоробота: */
+
+
+    position: absolute;
+    width: 134px;
+    height: 20px;
+    left: 342px;
+    top: 1942px;
+
+    /* 1920/Medium Text */
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+
+
+    color: #FFFFFF;
+}
+
+.stabilizator {
+    /* Cтабилизатор: */
+
+
+    position: absolute;
+    width: 134px;
+    height: 20px;
+    left: 342px;
+    top: 2038px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+
+
+    color: #FFFFFF;
+}
+
+.info_needed {
+    /* Для производства биоробота не хватает 2 биоруки, 3 микрочипа и 1 души */
+
+
+    position: absolute;
+    width: 195px;
+    height: 48px;
+    left: 602px;
+    top: 2183px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    /* or 133% */
+
+
+    color: #A3B8CC;
+}
+
+.button_create {
+    left: 342px;
+    top: 2183px;
+
+    display: flex;
+    flex-direction: row;
+    padding: 12px 60px;
+    gap: 10px;
+
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    width: 236px;
+    height: 48px;
+
+
+    background: none;
+
+    border-radius: 60px;
+    border: 2px solid #22B3E3;
+    /*
+background: #7CDAF9;
+box-shadow: 0px 10px 40px #1E5466;
+border-radius: 60px;
+border:none;*/
+}
+
+.button_create:hover {
+    background: #7CDAF9;
+    box-shadow: 0px 10px 40px #1E5466;
+    font-style: normal;
+    color: #212529 !important;
+}
+
+.button_create:active {
+    background: none;
+    border: 2px solid #22B3E3;
+    box-shadow: none;
+}
+
+.button_create:disabled {
+    background-color: #4C5865 !important;
+    color: #4C5865;
+}
+
+
+.button_create_text {
+    width: 236px;
+    height: 48px;
+    margin-top: 24px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    text-align: center;
+
+    color: #7CDAF9;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.button_create_text:hover {
+    color: #212529 !important;
+}
+
+.button_create_text:active {
+    color: #7CDAF9 !important;
+}
+
+.button_create_text:disabled {
+    filter: grayscale();
+    color: #4C5865 !important;
+}
+
+.constructor_items {
+    display: flex;
+    margin-top: 16px;
+
+}
+
+.constructor_items>div:not(:first-child) {
+    margin-left: 10px;
+
+}
+
+.constructor_items>div {
+    width: 48px;
+    height: 48px;
+    background: #31363c;
+    border-radius: 5px;
+}
+
+.constructor_items img {
+    max-width: 100%;
+}
+
+
+/*RADIO*/
+.radio_box {
+    display: flex;
+    justify-content: space-between;
+    width: 210px;
+    margin-top: 15px;
+}
+
+.radio_text {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+
+}
+
+.form_radio {
+    margin-bottom: 10px;
+
+}
+
+.form_radio text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+
+}
+
+
+.form_radio input[type=radio] {
+    display: none;
+}
+
+.form_radio label {
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    padding-left: 45px;
+    padding-top: 10px;
+    margin-right: 0;
+    line-height: 18px;
+    user-select: none;
+}
+
+.form_radio label:before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 4px;
+    top: 4px;
+
+    border: 3px solid #A3B8CC;
+    border-radius: 50%;
+}
+
+/* Checked */
+.form_radio input[type=radio]:checked+label:before {
+    box-sizing: border-box;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 4px;
+    top: 4px;
+    border: 3px solid #A3B8CC;
+
+    background-color: #FF5722;
+}
+
+/* Hover */
+.form_radio label:hover:before {
+    border: 3px solid #708092;
+    /*filter: grayscale(100%);*/
+}
+
+/* Disabled */
+.form_radio input[type=radio]:disabled+label:before {
+    border: 3px solid #4C5865;
+}
+
+.constructor_conteiner {
+    position: absolute;
+    left: 602px;
+    top: 1942px;
+}
+
+.summ {
+    /* 45 biorobo монет */
+
+
+    position: absolute;
+    width: 310px;
+    height: 24px;
+    left: 342px;
+    top: 756px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    /* identical to box height, or 100% */
+
+
+    color: #A3B8CC;
+}
+
+.v-popup {
+    padding: 16px;
+    position: fixed;
+    left: 472px;
+    top: 200px;
+    width: 450px;
+    height: 220px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: #1E2936;
+    z-index: 1;
+}
+
+.v-popup_header,
+v-popup_footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.close {
+    margin: -10px;
+    height: 20px;
+    color: orange;
+    border: none;
+    background-color: #FFFFFF;
+    font-size: 20px;
+}
+
+.v-catalog_item {
+    margin-top: 20px;
+    display: flex;
+    text-align: left;
+}
+
+.v-popup_header text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600px;
+    font-size: 36px;
+    line-height: 32px;
+}
+
+.money_info {
+    display: flex;
+    justify-content: center;
+}
+
+.coin_x {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 1;
+}
+
+.youCant {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 20px;
+}
+
+.for_text {
+    width: 600px;
+    position: absolute;
+    top: 10px;
+    margin-left: 50px;
+    margin-bottom: 100px;
+}
+.robot_available{
+    background: url(./assets/robots_available.png);
+    background-position: 200px 200px;
+}
+.inside_details{
+   /* background: url(./assets/biohand_dark.png);*/
+   
+   justify-content: absolute;
+   width: 45px;
+   margin:0px;
+}
